@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1f1f2e;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: #fff !important;
+  margin: 0 15px;
+  transition: all 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffca28 !important;
+  text-shadow: 0 0 5px rgba(255, 202, 40, 0.8);
+}
+
+section {
+  padding: 100px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+#home {
+  background: url('Images/Home.jpg') no-repeat center center/cover;
+  color:white;
+  padding: 150px 20px;
+  text-shadow: 1px 1px 5px rgba(253, 253, 253, 0.6);
+}
+
+#about {
+  background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+}
+
+#services {
+
+  color: black;
+}
+
+#contact {
+  background: linear-gradient(135deg, #dde1e4, #0e4785);
+}
+
+.img-enhanced {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-enhanced:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom {
+  background-color: #6610f2;
+  color: white;
+  transition: all 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #520dc2;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #1f1f2e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2, h4 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
